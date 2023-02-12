@@ -1,4 +1,5 @@
 def buildJar() {
+    echo "testing the triggering"
     echo "building the application..."
     sh 'mvn package'
 } 
